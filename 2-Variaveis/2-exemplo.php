@@ -14,13 +14,13 @@ $nomeCompleto = $nome1 . $sobrenome;
 
 //exit; //Para a execuçao aqui
 
-echo $nome1;
+echo $nome1; //Mostra a variável Pedro
 
 echo "<br/>";
 
-unset($nome1);
+unset($nome1); //Destroi a variável $nome1
 
-if(isset($nome1)){
+if(isset($nome1)){ //Se tive valor Mostrar
 	
 	echo $nome;
 

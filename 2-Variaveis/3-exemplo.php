@@ -15,7 +15,7 @@ $bloqueado = false;
 
 $frutas = array("abacaxi", "laranja", "manga");
 
-echo $frutas[2];
+echo $frutas[2]; //manga
 
 $nascimento = new DateTime(); //Objeto
 

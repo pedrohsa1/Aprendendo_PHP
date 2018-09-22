@@ -1,13 +1,15 @@
 <?php
 /*Variáveis Pré-Definidas ou Arrays Super Globais são variaveis internas do PHP que já vem com alguns recursos.
 
+Tipos de Variáveis  Pré-Definidas
 -informações externas: POST ou GET
 -informações de ambiente
+
 */
 
 $nome = $_GET["nome"]; //Array Super global
-//Também é possivel converter um tipo de variável, chamaos de cast
-//$nomeRecebeInt = (int)$_GET["nome"];
+//Também é possivel converter um tipo de variável, chamamos de cast
+//$nomeRecebeInt = (int) $_GET["nome"];
 
 
 /*
@@ -30,7 +32,7 @@ http://localhost/Udemy_PHP/Aprendendo_PHP/3-Variaveis_Pre-Definidas/4-exemplo.ph
 
 //Pegando IP do usuário
 //Como está no Localhost o IP aparece diferente, mas no servidor está tudo ok
-$ip1 = $_SERVER["REMOTE_ADDR"];
+$ip1 = $_SERVER["REMOTE_ADDR"];-
 echo $ip1;
 
 echo "<br/><br/><br/>";
